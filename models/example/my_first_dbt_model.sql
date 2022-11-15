@@ -16,6 +16,8 @@ with source_data as (
     select null as id
     union ALL 
     SELECT 2 AS ID
+    UNION ALL
+    SELECT 3 AS ID
 
 )
 
